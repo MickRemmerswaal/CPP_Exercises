@@ -46,6 +46,8 @@
         "complex": "cpp",
         "list": "cpp",
         "optional": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "chrono": "cpp",
+        "ratio": "cpp"
     }
 }
