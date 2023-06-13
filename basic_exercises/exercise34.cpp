@@ -25,7 +25,8 @@ int main(int argc, char const *argv[])
     cout << "weekday = " << localTime->tm_wday << endl;
     cout << "day of year = " << localTime->tm_yday << endl;
     cout << "daylight savings = " << localTime->tm_isdst << endl;
-    cout << "Current Date: " << localTime << endl;
-    cout << "Current Time: " << localTime << endl;
+    
+    cout << "Current Date: " << localTime->tm_mday << "-" << localTime->tm_mon+1 << "-" << localTime->tm_year+1900 << endl;
+    cout << "Current Time: " << localTime->tm_hour << ":" << localTime->tm_min << ":" << localTime->tm_sec << endl;
     return 0;
 }
